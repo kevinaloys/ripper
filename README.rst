@@ -1,7 +1,7 @@
 Ripper
 ======
 
-An elegant Image Ripper. The Pythonic Way.
+Rip Images. The Pythonic Way.
 
 Ideas
 -----
