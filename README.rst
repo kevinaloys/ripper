@@ -8,7 +8,12 @@ Ideas
 
 - Allow elegant Image Ripping from websites.
 - Ability to Save in a Particular Directory.
-- Specify Format of the Image.
+- Default get. Rip Images of Type 'jpg' and 'jpeg'
+- For more, Specify Format of the Image.
+- Simple Save. Images Saved to Folder defaulting to Title of the Web Page.
+- 
+
+
 
 Usage
 -----
@@ -17,10 +22,22 @@ Simple Usage::
 
     >>> import ripper
 
-    >>> r = ripper.get('http://website.com', type=('jpg','png'))
-    >>> r.urls
+    >>> r = ripper.get('http://website.com')
+    >>> r.url
     ['http://website.com/image.jpg','http://website.com/hello.jpg']
     >>> r.ok
     True
-    >>> r.save('/home/directory')
-    Successfully Saved 30 Images.
+    >>> r.save
+    Successfully Saved 2 Images.
+
+
+Advanced Usage
+--------------
+
+	>>> import ripper
+
+	>>> r = ripper.get('http://website.com',type=(jpg,png,gif))
+	>>> r.url
+	['http://website.com/img.jpg','http://website.com/hello.png','http://website.com/hello.gif']
+	>>> r.save('/home/directory')
+	Successfully Saved 30 Images to /home/directory
