@@ -17,10 +17,10 @@ Simple Usage::
 
     >>> import ripper
 
-    >>> r = ripper.get('http://website.com','jpg')
+    >>> r = ripper.get('http://website.com', type=('jpg','png'))
     >>> r.urls
     ['http://website.com/image.jpg','http://website.com/hello.jpg']
     >>> r.ok
     True
-    >>> r.save('directory/subdirectory')
+    >>> r.save('/home/directory')
     Successfully Saved 30 Images.
