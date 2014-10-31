@@ -29,8 +29,7 @@ Simple Usage::
     Successfully Saved 2 Images.
 
 
-Advanced Usage
---------------
+Simple Usage::
 
 	>>> import ripper
 
