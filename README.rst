@@ -11,8 +11,6 @@ Ideas
 - Default get. Rip Images of Type 'jpg' and 'jpeg'
 - For more, Specify Format of the Image.
 - Simple Save. Images Saved to Folder defaulting to Title of the Web Page.
-- 
-
 
 
 Usage
