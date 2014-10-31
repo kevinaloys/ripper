@@ -23,13 +23,11 @@ Simple Usage::
     >>> r = ripper.get('http://website.com')
     >>> r.url
     ['http://website.com/image.jpg','http://website.com/hello.jpg']
-    >>> r.ok
-    True
     >>> r.save
     Successfully Saved 2 Images.
 
 
-Simple Usage::
+Advanced Usage::
 
 	>>> import ripper
 
@@ -37,4 +35,4 @@ Simple Usage::
 	>>> r.url
 	['http://website.com/img.jpg','http://website.com/hello.png','http://website.com/hello.gif']
 	>>> r.save('/home/directory')
-	Successfully Saved 30 Images to /home/directory
+	Successfully Saved 3 Images to /home/directory
