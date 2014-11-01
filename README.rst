@@ -1,7 +1,7 @@
 Ripper
 ======
 .. image:: https://readthedocs.org/projects/ripper/badge/?version=latest 
-:target: https://readthedocs.org/projects/ripper/?badge=latest
+_`http://ripper.readthedocs.org/`
 
 Rip Images. The Pythonic Way.
 
