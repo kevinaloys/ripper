@@ -1,6 +1,6 @@
 Ripper
 ======
-.. image:: https://readthedocs.org/projects/ripper/badge/?version=latest 
+.. image:: https://readthedocs.org/projects/ripper/badge/?version=latest ..image:: https://travis-ci.org/kevinaloys/ripper.svg?branch=master
 _`http://ripper.readthedocs.org/`
 
 Rip Images. The Pythonic Way.
