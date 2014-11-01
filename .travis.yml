@@ -3,4 +3,4 @@ python:
   - "3.4"
 
 install: "pip install sphinx"
-script: make html
+script: sphinx-build -nW -b html -d _build/doctrees . _build/html
