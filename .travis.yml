@@ -5,4 +5,4 @@ python:
 install: "pip install sphinx"
 script: 
   - cd docs
-  - sphinx-build -nW -b html -d _build/doctrees . _build/html
+  - make html
