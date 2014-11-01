@@ -1,6 +1,6 @@
 Ripper
 ======
-.. image:: https://readthedocs.org/projects/ripper/badge/?version=latest:target: https://readthedocs.org/projects/ripper/?badge=latest:alt: Documentation Status
+.. image:: https://readthedocs.org/projects/ripper/badge/?version=latest :target: https://readthedocs.org/projects/ripper/?badge=latest :alt: Documentation Status
 Rip Images. The Pythonic Way.
 
 Ideas
