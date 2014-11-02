@@ -3,8 +3,12 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to ripper's documentation!
-==================================
+
+Ripper : Image ripper for 
+=========================
+The Pythonic Soul™
+==================
+
 
 Contents:
 
