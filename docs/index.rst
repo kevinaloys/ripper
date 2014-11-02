@@ -3,17 +3,11 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-<<<<<<< HEAD
-
 Ripper : Image ripper for 
 =========================
 The Pythonic Soul™
 ==================
 
-=======
-ripper- Image Ripper for the Pythonic Soul
-==========================================
->>>>>>> 64cc792b15ea718dbcc2afe6126157288787292e
 
 Contents:
 
