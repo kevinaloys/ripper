@@ -22,7 +22,8 @@ Simple Usage::
 
     >>> import ripper
 
-    >>> r = ripper.get('http://website.com')
+    >>> r = ripper()
+    >>> r.get('http://website.com')
     >>> r.url
     ['http://website.com/image.jpg','http://website.com/hello.jpg']
     >>> r.save
