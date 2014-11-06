@@ -7,6 +7,7 @@ setup(name='rippper',
       author='Kevin Aloysius',
       author_email='kevinaloysius25@gmail.com',
       license='MIT',
-      packages=['requests','BeautifulSoup4'],
+      packages=['ripper'],
+      install_requires=['requests','BeautifulSoup4']
       zip_safe=False
      )
