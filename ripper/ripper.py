@@ -21,5 +21,5 @@ class ripper(object):
     		all_url.append(link.get('src'))
     	for url in all_url:
     		format = utils.vertical_to_comma(format)
-    		if re.match('.+\.({})'.format(format),url):
+    		if re.match('.+\.({})'.format(format), url):
     			self.urls.append(url)
