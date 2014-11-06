@@ -9,7 +9,6 @@ class ripper(object):
     def __init__(self):
     	self.urls = []
     	self.text = None
-    	self.current_dir = os.path.dirname(os.path.abspath(__file__))
 
     def __repr__(self):
     	return('<Type: ripper>')
@@ -24,11 +23,3 @@ class ripper(object):
     		format = utils.vertical_to_comma(format)
     		if re.match('.+\.({})'.format(format),url):
     			self.urls.append(url)
-
-
-def main():
-	d = ripper()
-	d.get('http://www.facebook.com')
-
-if __name__ =='__main__':
-	main()
