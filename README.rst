@@ -10,7 +10,7 @@ Ideas
 
 - Allow elegant Image Ripping from websites.
 - Ability to Save in a Particular Directory.
-- Default get. Rip Images of Type 'jpg'.
+- Default get. Rip Images of Type '.jpg'.
 - For more, Specify Format of the Image.
 - Simple Save. Images Saved to Folder defaulting to Title of the Web Page.
 
