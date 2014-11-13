@@ -3,6 +3,7 @@ from bs4 import BeautifulSoup
 import re
 import os
 import utils
+import shutil
 
 class ripper(object):
 
@@ -10,10 +11,12 @@ class ripper(object):
     	self.urls = []
     	self.text = None
 
+
     def __repr__(self):
     	return('<Type: ripper>')
 
-    def get(self, url, format = 'jpg, gif, png'):
+
+    def get(self, url, format = 'jpg'):
     	r = requests.get(url)
     	soup = BeautifulSoup(r.text)
     	all_url = []
@@ -23,3 +26,10 @@ class ripper(object):
     		format = utils.vertical_to_comma(format)
     		if re.match('.+\.({})'.format(format), url):
     			self.urls.append(url)
+
+    def save(self, to = None):
+        for each_url in self.urls:
+            r = requests.get(each_url, stream = True)
+            with open(utils.image_name(each_url), 'wb') as outfile:
+                shutil.copyfileobj(r.raw, outfile)
+            del r
