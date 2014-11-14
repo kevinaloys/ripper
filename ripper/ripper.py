@@ -28,6 +28,7 @@ class ripper(object):
     		if re.match('.+\.({})'.format(format), url):
     			self.urls.append(url)
 
+
     def save(self, to = None):
         for each_url in self.urls:
             r = requests.get(each_url, stream = True)
