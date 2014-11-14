@@ -1,6 +1,6 @@
 from setuptools import setup
 
-setup(name='rippper',
+setup(name='ripper',
       version='0.0.1',
       description='Image Ripper for the Pythonic Soul',
       url='http://github.com/kevinaloys/ripper',
