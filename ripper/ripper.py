@@ -2,18 +2,19 @@ import requests
 from bs4 import BeautifulSoup
 import re
 import os
-import utils
+from ripper import utils
 import shutil
 
 class ripper(object):
 
-    def __init__(self):
-    	self.urls = []
-    	self.text = None
+    def __init__(self, name = 'ripper'):
+        self.urls = []
+        self.text = None
+        self.name = name
 
 
     def __repr__(self):
-    	return('<Type: ripper>')
+    	return('<Type: {}>'.format(self.name))
 
 
     def get(self, url, format = 'jpg'):
