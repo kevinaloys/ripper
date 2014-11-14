@@ -32,10 +32,10 @@ class ripper(object):
 
     def save(self, to = None):
         if to == None:
-            basedir = os.getcwd()
-            if not os.path.isdir(self.soup.title.string):
-                os.makedirs(self.soup.title.string)
-        os.chdir(self.soup.title.string)
+            if not os.path.isdir(self.name):
+                os.makedirs(self.name)
+            to = os.getcwd() + '/' + self.name
+        os.chdir(to)
         for each_url in self.urls:
             r = requests.get(each_url, stream = True)
             with open(utils.image_name(each_url), 'wb') as outfile:
