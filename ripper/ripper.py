@@ -14,7 +14,7 @@ class ripper(object):
         self.soup = None
 
     def __repr__(self):
-        return('<Type: ripper, Name: {}>'.format(self.name))     
+        return('<Type: ripper, Name: {}>'.format(self.name))
 
 
     def get(self, url, format = 'jpg'):
