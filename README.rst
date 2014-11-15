@@ -12,7 +12,7 @@ Ideas
 - Ability to Save in a Particular Directory.
 - Default get. Rip Images of Type '.jpg'.
 - For more, Specify Format of the Image.
-- Simple Save. Images Saved to Folder defaulting to Title of the Web Page.
+- Simple Save. Images Saved to Folder having same name while creating a ripper.
 
 
 Usage
@@ -22,12 +22,12 @@ Simple Usage::
 
     >>> import ripper
 
-    >>> r = ripper()
+    >>> r = ripper('website')
     >>> r.get('http://website.com')
     >>> r.url
     ['http://website.com/image.jpg','http://website.com/hello.jpg']
     >>> r.save
-    Successfully Saved 2 Images.
+    Successfully Saved 2 Images to folder 'website'.
 
 
 Advanced Usage::
