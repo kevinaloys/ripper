@@ -34,7 +34,7 @@ Advanced Usage::
 
 	>>> import ripper
 
-	>>> r = ripper.get('http://website.com',type=(jpg,png,gif))
+	>>> r = ripper.get('http://website.com','jpg, png, gif')
 	>>> r.url
 	['http://website.com/img.jpg','http://website.com/hello.png','http://website.com/hello.gif']
 	>>> r.save('/home/directory')
